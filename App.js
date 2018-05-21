@@ -6,8 +6,8 @@ import AlbumList from './src/components/AlbumList';
 export default class App extends React.Component {
     render() {
         return (
-            <View>
-                <Header title={'ASUL - LIBRAS'}/>
+            <View style={{ flex: 1 }}>
+                <Header title={'Albums'}/>
                 <AlbumList/>
             </View>
         );
